@@ -1248,7 +1248,7 @@ hr {
 	font-weight:100;
 	font-family: "Roboto Slab", serif;}
 	
-	.panel-cover__description a:hover{
+.panel-cover__description a:hover{
 		font-weight:300;
 		text-decoration:underline;
 	}
@@ -1260,6 +1260,7 @@ hr {
 	font-weight:400;
 	color: #FFF;
 	font-family: "Roboto Slab", serif;	
+	
 	}
 	
 .panel-cover__text_subtitle {
@@ -1268,6 +1269,10 @@ hr {
 	font-size:1.3em;
 	color: #FFF;
 	font-family: "Roboto Slab", serif;	
+	}
+	
+.panel-cover__subtitle span {
+	font-size:0.8em;
 	}
 
 .panel-cover__divider {
