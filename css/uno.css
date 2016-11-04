@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto+Slab:100,300,400)';
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
@@ -1193,7 +1193,16 @@ hr {
 	margin: 0 0 5px 0;
 	font-size: 2.5em;
 	letter-spacing: 4px;
-	color: #FFF; }
+	color: #FFF;
+	font-weight:700;}
+
+.panel-subtitle-desc {
+	margin: 0 0 5px 0;
+	font-size: 1.5em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #FFF; }	
+	}
 
 .panel-subtitle {
 	font-family: "Roboto Slab", serif;
@@ -1233,7 +1242,33 @@ hr {
 	margin-bottom: .2em; }
 
 .panel-cover__description {
-	margin: 0 30px; }
+	margin: 0 30px; 
+	font-size:1.0em;
+	color: #FFF;
+	font-weight:100;
+	font-family: "Roboto Slab", serif;}
+	
+	.panel-cover__description a:hover{
+		font-weight:300;
+		text-decoration:underline;
+	}
+	
+.panel-cover__subtitle {
+	margin-top: 0px;
+	margin-bottom: 20px; 
+	font-size:1.6em;
+	font-weight:400;
+	color: #FFF;
+	font-family: "Roboto Slab", serif;	
+	}
+	
+.panel-cover__text_subtitle {
+	margin-top: 0px;
+	margin-bottom: 20px; 
+	font-size:1.3em;
+	color: #FFF;
+	font-family: "Roboto Slab", serif;	
+	}
 
 .panel-cover__divider {
 	width: 50%;
@@ -1316,9 +1351,10 @@ hr {
 	text-shadow: none;
 	color: #e25440;
 	-webkit-font-smoothing: antialiased; }
-	.btn:hover, .navigation__item a:hover {
+	.btn:, .navigation__item a:hover {
 		color: #b9301c;
-		border-color: #b9301c; }
+		border: 2px solid #b9301c;
+	}
 
 .btn-secondary {
 	border-color: #5ba4e5;
@@ -1386,7 +1422,7 @@ nav {
 		.navigation__item a:hover {
 			color: #FFF;
 			border-color: #FFF;
-			opacity: 1; }
+			opacity: 1;}
 
 .navigation--social {
 	margin-left: 1.5em; }
