@@ -1215,6 +1215,7 @@ hr {
 .panel-cover {
 	display: block;
 	position: fixed;
+	overflow-y: scroll;
 	z-index: 900;
 	width: 100%;
 	max-width: none;
@@ -1610,6 +1611,12 @@ input[type="tel"] {
 	.panel-title {
 		font-size: 2em; }
 
+	.panel-cover__subtitle {
+		font-size: 1.4em;}
+	
+	.panel-cover__text_subtitle {
+		font-size: 1.2em;	
+		}
 	.panel-subtitle {
 		font-size: 1em; }
 
@@ -1620,6 +1627,13 @@ input[type="tel"] {
 	.navigation--social {
 		margin-top: 5px;
 		margin-left: 0; } }
+
+@media all and (max-width: 500px) {
+	.panel-main__inner {
+		padding: 0 10px;
+	}		
+}
+		/*
 @media all and (max-width: 960px) {
 
 	.panel-main {
@@ -1689,3 +1703,4 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+		*/
