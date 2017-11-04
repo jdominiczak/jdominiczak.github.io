@@ -1,18 +1,18 @@
 # Site settings
 title: 'Jason Dominiczak'
-text_description: 'Programmer <span>&&</span> Homebrewer <span>&&</span> Data Nerd'
-description: 'Programmer, Homebrewer, Data Nerd, and Author of BrewingNerd.com'
+text_description: 'Data Nerd <span>&&</span> First Responder Advocate <span>&&</span> Speaker'
+description: ''
 url: ''
 baseurl: ''
 subtitle: 'I nerd out on everything.'
-longtext: 'You can find me working on my fantasy football scoring algorithm, predicting the NCAA bracket, or finding fraud in Medicare data.  I write about my nerdy homebrewing at <a href="http://www.brewingnerd.com">BrewingNerd.com</a>.'  
+longtext: 'You can find me working on my fantasy football scoring algorithm, analysing MCI data, or brewing beer.  I started <a href="http://www.bargerstreetgroup.com">The Barger Street Group</a> which sits at the intersection of data science and critical incident response.'  
 googleAnalytics: 'UA-51066876-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'Jason Dominiczak'
   email: jason@jasondominiczak.com
-  twitter_username: brewingnerd
+  twitter_username: jasondominiczak
   github_username:  jdominiczak
   linkedin_username:  jasondominiczak
   flickr_username: jdominiczak
