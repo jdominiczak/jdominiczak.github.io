@@ -5,7 +5,7 @@ description: ''
 url: ''
 baseurl: ''
 subtitle: 'I nerd out on everything.'
-longtext: 'You can find me working on my fantasy football scoring algorithm, analysing MCI data, or brewing beer.  I started <a href="http://www.bargerstreetgroup.com">The Barger Street Group</a> which sits at the intersection of data science and critical incident response.'  
+longtext: 'You can find me working on my fantasy football algorithm, analysing MCI responses, or brewing beer.  I started <a href="http://www.bargerstreetgroup.com">The Barger Street Group</a> which sits at the intersection of data science and critical incident response.'  
 googleAnalytics: 'UA-51066876-1'
 # disqus_shortname: 'your-disqus-name'
 
